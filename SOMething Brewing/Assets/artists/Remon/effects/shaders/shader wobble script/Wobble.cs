@@ -38,8 +38,8 @@ public class Wobble : MonoBehaviour
         wobbleAmountZ = wobbleAmountToAddZ * Mathf.Sin(pulse * time);
 
         // send it to the shader
-        rend.sharedmaterial.SetFloat("_WobbleX", wobbleAmountX);
-        rend.sharedmaterial.SetFloat("_WobbleZ", wobbleAmountZ);
+        rend.sharedMaterial.SetFloat("_WobbleX", wobbleAmountX);
+        rend.sharedMaterial.SetFloat("_WobbleZ", wobbleAmountZ);
 
         // velocity
         velocity = (lastPos - transform.position) / Time.deltaTime;
@@ -47,8 +47,8 @@ public class Wobble : MonoBehaviour
 
 
         // add clamped velocity to wobble
-        wobbleAmountToAddX += Mathf.Clamp((velocity.x + (angularVelocity.z * 0.2f)) * MaxWobble, -MaxWobble, MaxWobble);
-        wobbleAmountToAddZ += Mathf.Clamp((velocity.z + (angularVelocity.x * 0.2f)) * MaxWobble, -MaxWobble, MaxWobble);
+        wobbleAmountToAddX += Mathf.Clamp((velocity.x + (angularVelocity.x * 0.2f)) * MaxWobble, -MaxWobble, MaxWobble);
+        wobbleAmountToAddZ += Mathf.Clamp((velocity.z + (angularVelocity.z * 0.2f)) * MaxWobble, -MaxWobble, MaxWobble);
 
         // keep last position
         lastPos = transform.position;

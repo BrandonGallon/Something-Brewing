@@ -1019,10 +1019,10 @@
     "m_Guid": {
         "m_GuidSerialized": "e34440af-6968-4415-82c9-b48338eb4a78"
     },
-    "m_Name": "WobbleY",
+    "m_Name": "WobbleX",
     "m_DefaultRefNameVersion": 1,
-    "m_RefNameGeneratedByDisplayName": "WobbleY",
-    "m_DefaultReferenceName": "_WobbleY",
+    "m_RefNameGeneratedByDisplayName": "WobbleX",
+    "m_DefaultReferenceName": "_WobbleX",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
     "m_UseCustomSlotLabel": false,
@@ -1113,7 +1113,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
     "m_ObjectId": "4c78d3720b4b4f6a9efe08dc2c667b89",
     "m_Id": 0,
-    "m_DisplayName": "WobbleY",
+    "m_DisplayName": "WobbleX",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
@@ -3098,7 +3098,7 @@
     "m_ObjectId": "fb3b731f67074dc288f02685a27b488c",
     "m_Title": "wobble",
     "m_Position": {
-        "x": -2480.000244140625,
+        "x": -2480.800048828125,
         "y": -1173.60009765625
     }
 }
