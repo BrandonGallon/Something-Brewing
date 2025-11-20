@@ -5,7 +5,6 @@ public class NuclearPotion : Potion
 {
     public float explosionDamage = 100f;
     public float radiationDamage = 5f;
-    public float radiationDuration = 10f;
 
     public override void ApplyEffect(GameObject Enemy)
     {
@@ -29,7 +28,7 @@ public class NuclearPotion : Potion
     {
         float timer = 0f;
 
-        while (timer < radiationDuration)
+        while (timer < DamageDuration)
         {
             enemy.TakeDamage(radiationDamage);
             yield return new WaitForSeconds(1f);

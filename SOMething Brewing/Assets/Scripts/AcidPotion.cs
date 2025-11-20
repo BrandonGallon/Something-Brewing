@@ -1,14 +1,17 @@
 using UnityEngine;
 
-public class AcidPotion : MonoBehaviour
+public class AcidPotion : Potion
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+
+    public override void ApplyEffect(GameObject Enemy)
+    {
+        base.ApplyEffect(Enemy);
+    }
     void Start()
     {
         
     }
 
-    // Update is called once per frame
     void Update()
     {
         

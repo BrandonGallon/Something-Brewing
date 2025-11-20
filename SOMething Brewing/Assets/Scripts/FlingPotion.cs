@@ -1,14 +1,16 @@
 using UnityEngine;
 
-public class FlingPotion : MonoBehaviour
+public class FlingPotion : Potion
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    public override void ApplyEffect(GameObject Enemy)
+    {
+        base.ApplyEffect(Enemy);
+    }
     void Start()
     {
         
     }
 
-    // Update is called once per frame
     void Update()
     {
         

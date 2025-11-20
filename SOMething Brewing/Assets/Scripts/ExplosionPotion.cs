@@ -1,8 +1,11 @@
 using UnityEngine;
 
-public class ExplosionPotion : MonoBehaviour
+public class ExplosionPotion : Potion
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    public override void ApplyEffect(GameObject Enemy)
+    {
+        base.ApplyEffect(Enemy);
+    }
     void Start()
     {
         

@@ -4,6 +4,7 @@ public class Potion : MonoBehaviour
 {
     public string potionName;
     public Color potionColor;
+    public float DamageDuration;
 
     public virtual void ApplyEffect(GameObject Enemy)
     {
