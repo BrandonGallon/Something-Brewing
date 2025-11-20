@@ -22,15 +22,6 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
-                },
-                {
-                    "name": "PrimaryTouchDelta",
-                    "type": "PassThrough",
-                    "id": "ec6326cd-a52b-423b-af9f-7edb694a0acd",
-                    "expectedControlType": "Vector2",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -53,17 +44,6 @@
                     "processors": "",
                     "groups": "",
                     "action": "PrimaryTouchPosition",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "f693f780-4939-432e-aa2d-e946368ef582",
-                    "path": "<Touchscreen>/delta",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "PrimaryTouchDelta",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
