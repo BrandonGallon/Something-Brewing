@@ -2,15 +2,14 @@ using UnityEngine;
 
 public class DraggablePotion : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    public void StartDragging()
     {
-        
+       
+        Debug.Log("Picked up potion: " + name);
     }
 
-    // Update is called once per frame
-    void Update()
+    public void StopDragging()
     {
-        
+        Debug.Log("Dropped potion: " + name);
     }
 }

@@ -4,7 +4,7 @@ using UnityEngine.InputSystem.Controls;
 
 public class PotionDragController : MonoBehaviour
 {
-    private TouchAction controls;
+    private TouchControls controls;
     private Camera cam;
     private DraggablePotion currentPotion;
 
@@ -15,7 +15,7 @@ public class PotionDragController : MonoBehaviour
 
     private void Awake()
     {
-        controls = new TouchAction();
+        controls = new TouchControls();
         cam = Camera.main;
     }
 
@@ -52,14 +52,30 @@ public class PotionDragController : MonoBehaviour
     void TryPickUp(Vector2 screenPos)
     {
         Ray ray = cam.ScreenPointToRay(screenPos);
+        Debug.Log("Trying to pick up at screenPos: " + screenPos);
 
         if (Physics.Raycast(ray, out RaycastHit hit))
         {
+            Debug.Log("Hit: " + hit.collider.name);
+
             currentPotion = hit.collider.GetComponent<DraggablePotion>();
+
             if (currentPotion != null)
+            {
+                Debug.Log("Picked up potion");
                 currentPotion.StartDragging();
+            }
+            else
+            {
+                Debug.Log("Object hit, but NOT draggable.");
+            }
+        }
+        else
+        {
+            Debug.Log("No collider hit.");
         }
     }
+
 
     void DragPotion(Vector2 screenPos)
     {
