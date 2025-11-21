@@ -130,9 +130,9 @@ Material:
     - _SrcBlend: 5
     - _SrcBlendAlpha: 1
     - _Surface: 1
-    - _WobbleX: 5.145088e-33
+    - _WobbleX: 3e-45
     - _WobbleY: 0
-    - _WobbleZ: 2.3015008e-36
+    - _WobbleZ: 3e-45
     - _WorkflowMode: 1
     - _ZTest: 4
     - _ZWrite: 0
