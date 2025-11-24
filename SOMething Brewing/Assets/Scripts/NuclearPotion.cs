@@ -1,7 +1,7 @@
 using System.Collections;
 using UnityEngine;
 
-public class NuclearPotion : Potion
+public class NuclearPotion : Potions
 {
     public float explosionDamage = 100f;
     public float radiationDamage = 5f;

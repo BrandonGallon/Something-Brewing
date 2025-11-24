@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class ExplosionPotion : Potion
+public class ExplosionPotion : Potions
 {
     public override void ApplyEffect(GameObject Enemy)
     {
