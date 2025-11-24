@@ -339,6 +339,9 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e653caf2c879bba41a83b1cbd8be1402, type: 3}
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 --- !u!1 &2093638114
 GameObject:
@@ -529,4 +532,7 @@ SceneRoots:
 =======
   - {fileID: 1687943628}
   - {fileID: 1849594833}
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
