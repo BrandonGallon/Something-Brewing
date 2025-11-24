@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d0a2cd4010c00d4a913796826584b67, type: 3}
+  m_Name: OFrostBite
+  m_EditorClassIdentifier: 
+  elementA: {fileID: 0}
+  elementB: {fileID: 0}
+  elementC: {fileID: 11400000, guid: 32bfb82f9a90ca84c9e257d369568071, type: 2}
+  elementD: {fileID: 0}
+  elementE: {fileID: 0}
+  elementF: {fileID: 0}
+  elementG: {fileID: 0}
+  elementH: {fileID: 0}
+  elementI: {fileID: 11400000, guid: d28e8d0a425cc0a49adb09d4745bef8e, type: 2}
+  result: {fileID: 11400000, guid: f66b34effad9a9a4daf5689d7da75d62, type: 2}

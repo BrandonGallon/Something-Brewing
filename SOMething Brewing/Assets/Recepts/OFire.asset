@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d0a2cd4010c00d4a913796826584b67, type: 3}
+  m_Name: OFire
+  m_EditorClassIdentifier: 
+  elementA: {fileID: 11400000, guid: 53527d9607fcf344995aa226356b035d, type: 2}
+  elementB: {fileID: 0}
+  elementC: {fileID: 0}
+  elementD: {fileID: 0}
+  elementE: {fileID: 0}
+  elementF: {fileID: 0}
+  elementG: {fileID: 0}
+  elementH: {fileID: 11400000, guid: c774f1791bacfc14cbdd3f37e5a205ff, type: 2}
+  elementI: {fileID: 0}
+  result: {fileID: 11400000, guid: 8eb3daf731fa968469c9258722d1b0d7, type: 2}
