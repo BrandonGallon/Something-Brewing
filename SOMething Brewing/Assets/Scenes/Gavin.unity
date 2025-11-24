@@ -211,6 +211,135 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< Updated upstream
+=======
+--- !u!1001 &1687943628
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 856537133b4c6574d8dc4b1d8a57ed62, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.7399683
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 856537133b4c6574d8dc4b1d8a57ed62, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.2593621
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 856537133b4c6574d8dc4b1d8a57ed62, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.7191842
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 856537133b4c6574d8dc4b1d8a57ed62, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 856537133b4c6574d8dc4b1d8a57ed62, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 856537133b4c6574d8dc4b1d8a57ed62, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 856537133b4c6574d8dc4b1d8a57ed62, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 856537133b4c6574d8dc4b1d8a57ed62, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 856537133b4c6574d8dc4b1d8a57ed62, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 856537133b4c6574d8dc4b1d8a57ed62, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -5014784700922959909, guid: 856537133b4c6574d8dc4b1d8a57ed62, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 0d6fd33c4c5176a4b836465199a1d18b, type: 2}
+    - target: {fileID: -907712447560013020, guid: 856537133b4c6574d8dc4b1d8a57ed62, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 13833f44627196f4ea56670bad3b8414, type: 2}
+    - target: {fileID: -772798723794940250, guid: 856537133b4c6574d8dc4b1d8a57ed62, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 13833f44627196f4ea56670bad3b8414, type: 2}
+    - target: {fileID: 919132149155446097, guid: 856537133b4c6574d8dc4b1d8a57ed62, type: 3}
+      propertyPath: m_Name
+      value: Ice Potion 3
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 856537133b4c6574d8dc4b1d8a57ed62, type: 3}
+--- !u!1001 &1849594833
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: e653caf2c879bba41a83b1cbd8be1402, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 8.93
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e653caf2c879bba41a83b1cbd8be1402, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.08777527
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e653caf2c879bba41a83b1cbd8be1402, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.93
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e653caf2c879bba41a83b1cbd8be1402, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e653caf2c879bba41a83b1cbd8be1402, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e653caf2c879bba41a83b1cbd8be1402, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e653caf2c879bba41a83b1cbd8be1402, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e653caf2c879bba41a83b1cbd8be1402, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e653caf2c879bba41a83b1cbd8be1402, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e653caf2c879bba41a83b1cbd8be1402, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e653caf2c879bba41a83b1cbd8be1402, type: 3}
+      propertyPath: m_Name
+      value: Fling Potion
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e653caf2c879bba41a83b1cbd8be1402, type: 3}
+>>>>>>> Stashed changes
 --- !u!1 &2093638114
 GameObject:
   m_ObjectHideFlags: 0
@@ -395,4 +524,9 @@ SceneRoots:
   m_Roots:
   - {fileID: 289479767}
   - {fileID: 2093638116}
+<<<<<<< Updated upstream
   - {fileID: 1647820069343883812}
+=======
+  - {fileID: 1687943628}
+  - {fileID: 1849594833}
+>>>>>>> Stashed changes
