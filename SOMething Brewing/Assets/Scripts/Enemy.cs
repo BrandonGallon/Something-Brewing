@@ -1,32 +1,32 @@
-using System;
-using UnityEditor.SceneManagement;
 using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    public float health;
-
-    public void TakeDamage(float amount)
-    {
-        health -= amount;
-        if (health <= 0) Die();
-    }
-
-    private void Die()
-    {
-        if (health < 0)
-        {
-            Destroy(gameObject);
-        }
-    }
+    public string enemyName = "Enemy";
+    public float maxHealth = 1000f;
+    private float currentHealth;
+    public float deathDelay = 2f;
 
     void Start()
     {
-
+        currentHealth = maxHealth;
     }
 
-    void Update()
-    {
 
+    public void TakeDamage(float damageAmount)
+    {
+        currentHealth -= damageAmount;
+        Debug.Log(enemyName + " took " + damageAmount + " damage! Current health: " + currentHealth);
+
+        if (currentHealth <= 0f)
+        {
+            Die();
+        }
+    }
+
+    void Die()
+    {
+        Debug.Log(enemyName + " has been defeated!");
+        Destroy(gameObject, deathDelay);
     }
 }

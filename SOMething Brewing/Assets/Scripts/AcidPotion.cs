@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class AcidPotion : Potion
+public class AcidPotion : Potions
 {
 
     public override void ApplyEffect(GameObject Enemy)

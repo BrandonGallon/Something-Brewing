@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class FirePotion : Potion
+public class FirePotion : Potions
 {
 
     public override void ApplyEffect(GameObject Enemy)

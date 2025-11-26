@@ -1,8 +1,15 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:SOMething Brewing/Assets/artists/Remon/models/nitrogen/cloud.mat.meta
 guid: 7acf1fb575c3cb64ba4b27cd6076b446
 NativeFormatImporter:
   externalObjects: {}
   mainObjectFileID: 2100000
+========
+guid: 41d56ea24855b434789e05604a054a28
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+>>>>>>>> Ruben:SOMething Brewing/Assets/Recepts/Acid.asset.meta
   userData: 
   assetBundleName: 
   assetBundleVariant: 
