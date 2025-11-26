@@ -127,9 +127,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 839601375666689277, guid: 26dd7737b19d69e49ac61bafc098225f, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3434302193290933247, guid: 26dd7737b19d69e49ac61bafc098225f, type: 3}
       propertyPath: m_Name
       value: Plutonium
+      objectReference: {fileID: 0}
+    - target: {fileID: 3434302193290933247, guid: 26dd7737b19d69e49ac61bafc098225f, type: 3}
+      propertyPath: m_TagString
+      value: Element
       objectReference: {fileID: 0}
     - target: {fileID: 8311553441717012216, guid: 26dd7737b19d69e49ac61bafc098225f, type: 3}
       propertyPath: Mineral
@@ -226,6 +234,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Nitrogen
       objectReference: {fileID: 0}
+    - target: {fileID: 1337941545388069433, guid: 4820f76ca79143940af2e6767d5a1522, type: 3}
+      propertyPath: m_TagString
+      value: Element
+      objectReference: {fileID: 0}
     - target: {fileID: 2708667046465070078, guid: 4820f76ca79143940af2e6767d5a1522, type: 3}
       propertyPath: m_LocalPosition.x
       value: -43.16
@@ -265,6 +277,10 @@ PrefabInstance:
     - target: {fileID: 2708667046465070078, guid: 4820f76ca79143940af2e6767d5a1522, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3955934981032019962, guid: 4820f76ca79143940af2e6767d5a1522, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -702,9 +718,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3109332625848200423, guid: fbb142fca92e6884a912572eb8c62533, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6136665159342972805, guid: fbb142fca92e6884a912572eb8c62533, type: 3}
       propertyPath: m_Name
       value: Phosphorus
+      objectReference: {fileID: 0}
+    - target: {fileID: 6136665159342972805, guid: fbb142fca92e6884a912572eb8c62533, type: 3}
+      propertyPath: m_TagString
+      value: Element
       objectReference: {fileID: 0}
     - target: {fileID: 6619408249682976453, guid: fbb142fca92e6884a912572eb8c62533, type: 3}
       propertyPath: Mineral
@@ -945,6 +969,37 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &542605137
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 542605138}
+  m_Layer: 0
+  m_Name: ElementTP
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &542605138
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 542605137}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -45.335, y: 1.283, z: -5.12}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &558681988
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -960,6 +1015,14 @@ PrefabInstance:
     - target: {fileID: 2410488299362567097, guid: beb78a385246ace4a90591f7d7b95371, type: 3}
       propertyPath: m_Name
       value: Carbon
+      objectReference: {fileID: 0}
+    - target: {fileID: 2410488299362567097, guid: beb78a385246ace4a90591f7d7b95371, type: 3}
+      propertyPath: m_TagString
+      value: Element
+      objectReference: {fileID: 0}
+    - target: {fileID: 6325991005070192603, guid: beb78a385246ace4a90591f7d7b95371, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6796638453254367094, guid: beb78a385246ace4a90591f7d7b95371, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1047,6 +1110,14 @@ PrefabInstance:
     - target: {fileID: 1685598641896482007, guid: 2182a2bf9d2f2024092652e21d3944b8, type: 3}
       propertyPath: m_Name
       value: Oxygen
+      objectReference: {fileID: 0}
+    - target: {fileID: 1685598641896482007, guid: 2182a2bf9d2f2024092652e21d3944b8, type: 3}
+      propertyPath: m_TagString
+      value: Element
+      objectReference: {fileID: 0}
+    - target: {fileID: 2900235145047901640, guid: 2182a2bf9d2f2024092652e21d3944b8, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6927837150507391108, guid: 2182a2bf9d2f2024092652e21d3944b8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1395,9 +1466,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6555698697100870013, guid: b14c85833ff2a5847b9889a1dd73bd8e, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6870249371425888257, guid: b14c85833ff2a5847b9889a1dd73bd8e, type: 3}
       propertyPath: m_Name
       value: Hydrogen
+      objectReference: {fileID: 0}
+    - target: {fileID: 6870249371425888257, guid: b14c85833ff2a5847b9889a1dd73bd8e, type: 3}
+      propertyPath: m_TagString
+      value: Element
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1482,9 +1561,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5991003917379817957, guid: 7ee97fe0d72b121439705dfacc088099, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7226949989183178909, guid: 7ee97fe0d72b121439705dfacc088099, type: 3}
       propertyPath: m_Name
       value: Helium
+      objectReference: {fileID: 0}
+    - target: {fileID: 7226949989183178909, guid: 7ee97fe0d72b121439705dfacc088099, type: 3}
+      propertyPath: m_TagString
+      value: Element
       objectReference: {fileID: 0}
     - target: {fileID: 7905388012023178623, guid: 7ee97fe0d72b121439705dfacc088099, type: 3}
       propertyPath: Gas
@@ -1682,6 +1769,115 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: -180.232, z: 0}
+--- !u!1 &874933174
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 874933177}
+  - component: {fileID: 874933176}
+  - component: {fileID: 874933175}
+  - component: {fileID: 874933178}
+  m_Layer: 0
+  m_Name: Touch ding
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &874933175
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 874933174}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Actions: {fileID: -944628639613478452, guid: 3fdcef4345f2fca43b160581f7d86c89, type: 3}
+  m_NotificationBehavior: 2
+  m_UIInputModule: {fileID: 0}
+  m_DeviceLostEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_DeviceRegainedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ControlsChangedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ActionEvents:
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 874933176}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 33f91fad-9b46-4cf2-bc1b-455e15c6461e
+    m_ActionName: 'New action map/Touchy[/Touchscreen/press,/Touchscreen/touch9/tap]'
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 1f62ccde-cb25-4c08-8a69-2037c6fe1cb0
+    m_ActionName: 'New action map/TouchPress[/Touchscreen/press]'
+  m_NeverAutoSwitchControlSchemes: 0
+  m_DefaultControlScheme: 
+  m_DefaultActionMap: New action map
+  m_SplitScreenIndex: -1
+  m_Camera: {fileID: 0}
+--- !u!114 &874933176
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 874933174}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f23631bfa54b93409735609a21f93a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &874933177
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 874933174}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -38.352196, y: 5.2883887, z: -10.4884405}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &874933178
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 874933174}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63d2b9f38cb46c2458d5ea61f4b96204, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  teleportTarget: {fileID: 542605138}
 --- !u!1 &886281024
 GameObject:
   m_ObjectHideFlags: 0
@@ -1802,6 +1998,10 @@ PrefabInstance:
       propertyPath: Mineral
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2928643217615801980, guid: dab01f01eb4f51844beb9b6aa140b036, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4317232552892847129, guid: dab01f01eb4f51844beb9b6aa140b036, type: 3}
       propertyPath: m_LocalPosition.x
       value: -44.889
@@ -1845,6 +2045,10 @@ PrefabInstance:
     - target: {fileID: 4826156039353644138, guid: dab01f01eb4f51844beb9b6aa140b036, type: 3}
       propertyPath: m_Name
       value: Uranium
+      objectReference: {fileID: 0}
+    - target: {fileID: 4826156039353644138, guid: dab01f01eb4f51844beb9b6aa140b036, type: 3}
+      propertyPath: m_TagString
+      value: Element
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2762,6 +2966,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Fluorine
       objectReference: {fileID: 0}
+    - target: {fileID: 299251769657417186, guid: 223c7cc5b6a37024583c8bd232abcc91, type: 3}
+      propertyPath: m_TagString
+      value: Element
+      objectReference: {fileID: 0}
     - target: {fileID: 1221952585267706222, guid: 223c7cc5b6a37024583c8bd232abcc91, type: 3}
       propertyPath: m_LocalPosition.x
       value: -47.597
@@ -2801,6 +3009,10 @@ PrefabInstance:
     - target: {fileID: 1221952585267706222, guid: 223c7cc5b6a37024583c8bd232abcc91, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8521764782975430162, guid: 223c7cc5b6a37024583c8bd232abcc91, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3302,3 +3514,5 @@ SceneRoots:
   - {fileID: 338839885}
   - {fileID: 85280574}
   - {fileID: 896680970}
+  - {fileID: 874933177}
+  - {fileID: 542605138}

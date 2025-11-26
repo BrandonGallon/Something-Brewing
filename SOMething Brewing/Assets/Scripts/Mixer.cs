@@ -1,8 +1,14 @@
+using System;
 using UnityEngine;
 
 public class Mixer : MonoBehaviour
 {
     public Recept[] recepts;
+
+    internal static Potion Mix()
+    {
+        throw new NotImplementedException();
+    }
 
     public Potion Mix(Element a, Element b, Element c, Element d, Element e, Element f, Element g, Element h, Element i)
     {
