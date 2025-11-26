@@ -36,7 +36,7 @@ public class CraftingTable : MonoBehaviour
 
     private void MixNow()
     {
-        Potion result = Mixer.Mix(first, second);
+        Potion result = Mixer.Mix();
 
         if (result != null)
         {

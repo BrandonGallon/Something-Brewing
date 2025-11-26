@@ -6,7 +6,7 @@
 //{
 //    private TouchControls controls;
 //    private Camera cam;
-//    private DraggablePotion currentPotion;
+//    private Element currentElement;
 
 //    // Plane at table depth (adjust in Inspector)
 //    public Transform dragPlane;
@@ -34,7 +34,7 @@
 
 //        if (touching)
 //        {
-//            if (currentPotion == null)
+//            if (currentElement == null)
 //            {
 //                TryPickUp(screenPos);
 //            }
@@ -58,12 +58,12 @@
 //        {
 //            Debug.Log("Hit: " + hit.collider.name);
 
-//            currentPotion = hit.collider.GetComponent<DraggablePotion>();
+//            currentElement = hit.collider.GetComponent<Element>();
 
-//            if (currentPotion != null)
+//            if (currentElement != null)
 //            {
 //                Debug.Log("Picked up potion");
-//                currentPotion.StartDragging();
+//                currentElement.StartDragging();
 //            }
 //            else
 //            {
@@ -84,16 +84,16 @@
 //        if (plane.Raycast(ray, out float distance))
 //        {
 //            Vector3 worldPoint = ray.GetPoint(distance);
-//            currentPotion.transform.position = worldPoint;
+//            currentElement.transform.position = worldPoint;
 //        }
 //    }
 
 //    void DropPotion()
 //    {
-//        if (currentPotion != null)
+//        if (currentElement != null)
 //        {
-//            currentPotion.StopDragging();
-//            currentPotion = null;
+//            currentElement.StopDragging();
+//            currentElement = null;
 //        }
 //    }
 //}
