@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 6194573229215245757}
   - component: {fileID: 6493580074036354067}
   - component: {fileID: 2900235145047901640}
+  - component: {fileID: 2748221038953324975}
   m_Layer: 0
   m_Name: Oxygen
   m_TagString: Untagged
@@ -108,3 +109,16 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &2748221038953324975
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1685598641896482007}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fe4b0032953c2141b0cd814b4875e25, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  element: {fileID: 11400000, guid: 53527d9607fcf344995aa226356b035d, type: 2}

@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 9188056038305053707}
   - component: {fileID: 1802489995095799896}
   - component: {fileID: 6325991005070192603}
+  - component: {fileID: 4991374991580724203}
   m_Layer: 0
   m_Name: Carbon
   m_TagString: Untagged
@@ -108,3 +109,16 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &4991374991580724203
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2410488299362567097}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fe4b0032953c2141b0cd814b4875e25, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  element: {fileID: 11400000, guid: ba830a19d749ad84982f27e29058c4b8, type: 2}

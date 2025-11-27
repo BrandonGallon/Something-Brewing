@@ -12,4 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eee7e0a62b8094e48940a865f7f2bfa8, type: 3}
   m_Name: Fling
   m_EditorClassIdentifier: 
-  PotionName: Fling
+  potionName: Fling
+  prefab: {fileID: 2217372483606596480, guid: 4e6970cb1deed04479b3c93a840bcd00, type: 3}

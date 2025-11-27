@@ -13,7 +13,7 @@ public class Recept : ScriptableObject
     public Element elementH; //Phosphorus
     public Element elementI; //Fluorine
 
-    // hier doe je de prefab van de Potion
-    public Potion result; 
+    public Potion result;
+    public Element[] requiredElements;
 
 }
