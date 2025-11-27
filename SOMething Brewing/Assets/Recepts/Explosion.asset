@@ -12,4 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eee7e0a62b8094e48940a865f7f2bfa8, type: 3}
   m_Name: Explosion
   m_EditorClassIdentifier: 
-  PotionName: Explosion
+  potionName: Explosion
+  prefab: {fileID: 0}
