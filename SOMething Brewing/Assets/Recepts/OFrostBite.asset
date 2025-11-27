@@ -22,3 +22,6 @@ MonoBehaviour:
   elementH: {fileID: 0}
   elementI: {fileID: 11400000, guid: d28e8d0a425cc0a49adb09d4745bef8e, type: 2}
   result: {fileID: 11400000, guid: f66b34effad9a9a4daf5689d7da75d62, type: 2}
+  requiredElements:
+  - {fileID: 11400000, guid: d28e8d0a425cc0a49adb09d4745bef8e, type: 2}
+  - {fileID: 11400000, guid: 32bfb82f9a90ca84c9e257d369568071, type: 2}

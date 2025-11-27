@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: SmokeBomb
   m_EditorClassIdentifier: 
   potionName: SmokeBomb
-  prefab: {fileID: 0}
+  prefab: {fileID: 629366376086208418, guid: 2f2ed09b4d1b4f440bb6f552546bd2c6, type: 3}

@@ -106,4 +106,17 @@ public class PotionTapTeleport : MonoBehaviour
     {
         currentPotions.Clear();
     }
+    public void ResetPotions()
+    {
+        foreach (Transform potion in currentPotions)
+        {
+            if (originalPositions.ContainsKey(potion))
+            {
+                potion.position = originalPositions[potion];
+            }
+        }
+
+        currentPotions.Clear();
+    }
+
 }
