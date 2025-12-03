@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Explosion
   m_EditorClassIdentifier: 
   potionName: Explosion
-  prefab: {fileID: 0}
+  prefab: {fileID: 2247495611547077995, guid: d6fcfd69e5a2fb44fb1960009aef7c2e, type: 3}
