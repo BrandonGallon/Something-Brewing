@@ -760,6 +760,63 @@ MonoBehaviour:
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
   m_SoftShadowQuality: 0
+--- !u!1001 &2001978491
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2118864708894641272, guid: 9e1f7445eeca10b47a152e37a9926689, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -6.5307817
+      objectReference: {fileID: 0}
+    - target: {fileID: 2118864708894641272, guid: 9e1f7445eeca10b47a152e37a9926689, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.0000009536743
+      objectReference: {fileID: 0}
+    - target: {fileID: 2118864708894641272, guid: 9e1f7445eeca10b47a152e37a9926689, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -15.004253
+      objectReference: {fileID: 0}
+    - target: {fileID: 2118864708894641272, guid: 9e1f7445eeca10b47a152e37a9926689, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2118864708894641272, guid: 9e1f7445eeca10b47a152e37a9926689, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2118864708894641272, guid: 9e1f7445eeca10b47a152e37a9926689, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2118864708894641272, guid: 9e1f7445eeca10b47a152e37a9926689, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2118864708894641272, guid: 9e1f7445eeca10b47a152e37a9926689, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2118864708894641272, guid: 9e1f7445eeca10b47a152e37a9926689, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2118864708894641272, guid: 9e1f7445eeca10b47a152e37a9926689, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7253334940415476297, guid: 9e1f7445eeca10b47a152e37a9926689, type: 3}
+      propertyPath: m_Name
+      value: P_acid rain (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9e1f7445eeca10b47a152e37a9926689, type: 3}
 --- !u!1 &2101718818
 GameObject:
   m_ObjectHideFlags: 0
@@ -1268,3 +1325,4 @@ SceneRoots:
   - {fileID: 5227622044786971043}
   - {fileID: 6884699497833279881}
   - {fileID: 2632118166541345304}
+  - {fileID: 2001978491}
