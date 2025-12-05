@@ -1,18 +1,18 @@
-//using UnityEngine;
-//using UnityEngine.InputSystem;
+using UnityEngine;
+using UnityEngine.InputSystem;
 
-//public class ScreenTapLogger : MonoBehaviour
-//{
-//    void Update()
-//    {
-//        if (Touchscreen.current == null) return;
+public class ScreenTapLogger : MonoBehaviour
+{
+    void Update()
+    {
+        if (Touchscreen.current == null) return;
 
-//        var touch = Touchscreen.current.primaryTouch;
+        var touch = Touchscreen.current.primaryTouch;
 
-//        if (touch.press.isPressed)
-//        {
-//            Vector2 position = touch.position.ReadValue();
-//            Debug.Log("Touch at: " + position);
-//        }
-//    }
-//}
+        if (touch.press.isPressed)
+        {
+            Vector2 position = touch.position.ReadValue();
+            Debug.Log("Touch at: " + position);
+        }
+    }
+}
