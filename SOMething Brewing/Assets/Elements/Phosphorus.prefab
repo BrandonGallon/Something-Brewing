@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 3109332625848200423}
   - component: {fileID: -2150334790958210547}
   - component: {fileID: 3299344463837126463}
+  - component: {fileID: 5303541086260850357}
   m_Layer: 0
   m_Name: Phosphorus
   m_TagString: Untagged
@@ -31,7 +32,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -44.889, y: 1.359, z: 0.546}
-  m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 7769476329289784222}
@@ -109,8 +110,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 2.3921075, y: 3.7427306, z: 2.1377017}
-  m_Center: {x: -0.09394963, y: 1.371365, z: 0.0054451823}
+  m_Size: {x: 2.3746872, y: 4.0246277, z: 2.2399964}
+  m_Center: {x: -0.014629364, y: 1.5123138, z: -0.18498436}
 --- !u!114 &-2150334790958210547
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -145,6 +146,27 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 2.3921075, y: 3.7427306, z: 2.1377017}
   m_Center: {x: -0.09394963, y: 1.371365, z: 0.0054451823}
+--- !u!65 &5303541086260850357
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6136665159342972805}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2.4077225, y: 4.036594, z: 2.2452438}
+  m_Center: {x: -0.014247894, y: 1.518297, z: -0.18775794}
 --- !u!1001 &5627171305546265289
 PrefabInstance:
   m_ObjectHideFlags: 0
