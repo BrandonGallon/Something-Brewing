@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Fling
   m_EditorClassIdentifier: 
   potionName: Fling
-  prefab: {fileID: 2217372483606596480, guid: 4e6970cb1deed04479b3c93a840bcd00, type: 3}
+  prefab: {fileID: 4574607799364702147, guid: d8be5221d9ca707439e6aa41bd38a7c4, type: 3}

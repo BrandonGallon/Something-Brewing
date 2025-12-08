@@ -6,8 +6,11 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/MainScene.unity
-    guid: 99c9720ab356a0642a771bea13969a05
+    path: Assets/Scenes/MenuScene.unity
+    guid: b7f3a88aa4e58a04bb956ce07b12c7af
+  - enabled: 1
+    path: Assets/Scenes/Kamer scene.unity
+    guid: 48586d704d5c7b94d9ae14a3013a4566
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 16ae0bf7558e3604bacfad7f443a998e, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 3fdcef4345f2fca43b160581f7d86c89, type: 3}
