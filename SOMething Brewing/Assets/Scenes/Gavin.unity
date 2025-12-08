@@ -119,83 +119,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1001 &745028353
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: -8863667214212606868, guid: 84b97beef55b74540a3a8be0ad6b3aaa, type: 3}
-      propertyPath: 'm_Materials.Array.data[0]'
-      value: 
-      objectReference: {fileID: 2100000, guid: 7b7fc737beb984a419d06846a5eadced, type: 2}
-    - target: {fileID: -8679921383154817045, guid: 84b97beef55b74540a3a8be0ad6b3aaa, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.313704
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 84b97beef55b74540a3a8be0ad6b3aaa, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 84b97beef55b74540a3a8be0ad6b3aaa, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -21.655512
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 84b97beef55b74540a3a8be0ad6b3aaa, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 84b97beef55b74540a3a8be0ad6b3aaa, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 84b97beef55b74540a3a8be0ad6b3aaa, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 84b97beef55b74540a3a8be0ad6b3aaa, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 84b97beef55b74540a3a8be0ad6b3aaa, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 84b97beef55b74540a3a8be0ad6b3aaa, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 84b97beef55b74540a3a8be0ad6b3aaa, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -772798723794940250, guid: 84b97beef55b74540a3a8be0ad6b3aaa, type: 3}
-      propertyPath: 'm_Materials.Array.data[0]'
-      value: 
-      objectReference: {fileID: 2100000, guid: 7b7fc737beb984a419d06846a5eadced, type: 2}
-    - target: {fileID: 919132149155446097, guid: 84b97beef55b74540a3a8be0ad6b3aaa, type: 3}
-      propertyPath: m_Name
-      value: Nuclear Potion
-      objectReference: {fileID: 0}
-    - target: {fileID: 3524951480375141521, guid: 84b97beef55b74540a3a8be0ad6b3aaa, type: 3}
-      propertyPath: 'm_Materials.Array.data[0]'
-      value: 
-      objectReference: {fileID: 2100000, guid: 3be661f1501523748af2b070f7dafa90, type: 2}
-    - target: {fileID: 7418098771544918504, guid: 84b97beef55b74540a3a8be0ad6b3aaa, type: 3}
-      propertyPath: 'm_Materials.Array.data[0]'
-      value: 
-      objectReference: {fileID: 2100000, guid: 7b7fc737beb984a419d06846a5eadced, type: 2}
-    - target: {fileID: 8151023354082563727, guid: 84b97beef55b74540a3a8be0ad6b3aaa, type: 3}
-      propertyPath: 'm_Materials.Array.data[0]'
-      value: 
-      objectReference: {fileID: 2100000, guid: 7b7fc737beb984a419d06846a5eadced, type: 2}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 84b97beef55b74540a3a8be0ad6b3aaa, type: 3}
 --- !u!1001 &846931838
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1448,6 +1371,63 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4fb841e6b1116104897dc1783fda50df, type: 3}
+--- !u!1001 &5955034530201659840
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3567438012482224816, guid: 3c5b6a2597277f84da411744be46eab1, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.313704
+      objectReference: {fileID: 0}
+    - target: {fileID: 3567438012482224816, guid: 3c5b6a2597277f84da411744be46eab1, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3567438012482224816, guid: 3c5b6a2597277f84da411744be46eab1, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -21.655512
+      objectReference: {fileID: 0}
+    - target: {fileID: 3567438012482224816, guid: 3c5b6a2597277f84da411744be46eab1, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3567438012482224816, guid: 3c5b6a2597277f84da411744be46eab1, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3567438012482224816, guid: 3c5b6a2597277f84da411744be46eab1, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3567438012482224816, guid: 3c5b6a2597277f84da411744be46eab1, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3567438012482224816, guid: 3c5b6a2597277f84da411744be46eab1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3567438012482224816, guid: 3c5b6a2597277f84da411744be46eab1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3567438012482224816, guid: 3c5b6a2597277f84da411744be46eab1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4236133890135873546, guid: 3c5b6a2597277f84da411744be46eab1, type: 3}
+      propertyPath: m_Name
+      value: Nuclear Potion
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3c5b6a2597277f84da411744be46eab1, type: 3}
 --- !u!1001 &6105843319960821583
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1589,4 +1569,4 @@ SceneRoots:
   - {fileID: 1071774846000805170}
   - {fileID: 964000624833525528}
   - {fileID: 1844416883}
-  - {fileID: 745028353}
+  - {fileID: 5955034530201659840}
