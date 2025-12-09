@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Acid
   m_EditorClassIdentifier: 
   potionName: Acid
-  prefab: {fileID: 0}
+  prefab: {fileID: 5388538430280516376, guid: b11f592c8a414df408c2167abbbc3d7f, type: 3}
