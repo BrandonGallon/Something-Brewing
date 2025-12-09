@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: NuclearPotion
   m_EditorClassIdentifier: 
   potionName: Nuclear
-  prefab: {fileID: 0}
+  prefab: {fileID: 2554744764350729644, guid: 8a75a3358cc0d864caf2d3345637a773, type: 3}
