@@ -58,7 +58,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 7b7fc737beb984a419d06846a5eadced, type: 2}
     - target: {fileID: 919132149155446097, guid: 84b97beef55b74540a3a8be0ad6b3aaa, type: 3}
       propertyPath: m_Name
-      value: Nuclear Potion
+      value: P_Nuclear Potion
       objectReference: {fileID: 0}
     - target: {fileID: 3524951480375141521, guid: 84b97beef55b74540a3a8be0ad6b3aaa, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
