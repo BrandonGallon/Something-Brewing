@@ -12,7 +12,6 @@ public class ScreenTapLogger : MonoBehaviour
         if (touch.press.isPressed)
         {
             Vector2 position = touch.position.ReadValue();
-            Debug.Log("Touch at: " + position);
         }
     }
 }
