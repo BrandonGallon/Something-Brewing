@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Fire
   m_EditorClassIdentifier: 
   potionName: Fire
-  prefab: {fileID: 0}
+  prefab: {fileID: 6617541808873261791, guid: 0ccc61582f21b7a4ea71186ac2aa5ad5, type: 3}
